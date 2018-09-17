@@ -33,8 +33,6 @@ dependencies:
   - setuptools=40.2.0=py37_0
   - six=1.11.0=py37_1
   - sqlalchemy=1.2.11=py37hfa6e2cd_0
-  - vc=14.1=h0510ff6_3
-  - vs2015_runtime=15.5.2=3
   - wheel=0.31.1=py37_0
   - wincertstore=0.2=py37_0
 prefix: C:\Users\Everton\Miniconda3\envs\kdd_dl

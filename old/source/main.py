@@ -3,9 +3,14 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import database.models.kddcup_dataset as kdd_model
 import database.models.kddcup_dataset_clean as kdd_clean_model
-import numpy as np
+#import numpy as np
+import cupy as cp
+
+cp.corrco
 
 def main():
+
+
     Base = declarative_base()
 
     engine = create_engine('mysql+mysqlconnector://root:123456@localhost:3306/kdd', echo=False)
